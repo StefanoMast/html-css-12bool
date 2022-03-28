@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1, .col-2, .col-5, .col-6, .col-8, .col-12 {
+    height: 80px;
+    border: 3px solid white;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-nest-2{
+    height: 50px;
+    background-color: green;
+    color: white;
+}
