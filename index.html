@@ -4,42 +4,157 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/12bool.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Framework - 12Bool</title>
+
+    <link rel="stylesheet" href="./css/12bool.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-1">Col1</div>
-        <div class="col-2">Col2</div>
-        <div class="col-5">Col5</div>
-        <div class="col-5">Col5</div>
-        <div class="col-12">Col12</div>
-        <div class="col-8">Col8</div>
-        <div class="col-2">Col2</div>
-        <div class="col-2">Col2</div>
-        <div class="col-1">Col1</div>
-        <div class="col-2">Col2</div>
-        <div class="col-2">Col2</div>
-        <div class="col-6">Col6</div>
-        <div class="col-1">Col1</div>
-        <div class="col-6">
-            <div class="col-2-nest">Nested2</div>
-            <div class="col-2-nest">Nested2</div>
-            <div class="col-8-nest">Nested8</div>
-        </div>
-    </div>
     
+    <div class="container">
+        <h3>Esercizio per casa</h3>
+        <br>
+
+        <div class="row">
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-1">1 col</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-2">2 col</div>
+            <div class="col-xs-5">5 col</div>
+            <div class="col-xs-5">5 col</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">12 col</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-8">8 col</div>
+            <div class="col-xs-2">2 col</div>
+            <div class="col-xs-2">2 col</div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-1">1 col</div>
+            <div class="col-xs-2">2 col</div>
+            <div class="col-xs-2">2 col</div>
+            <div class="col-xs-6">6 col</div>
+            <div class="col-xs-1">1 col</div>            
+        </div>
+
+        <div class="row">           
+            <div class="col-xs-6 big">
+                <div class="row ">
+                    <div class="col-xs-2 nested">Nested 2 col</div>
+                    <div class="col-xs-2 nested">Nested 2 col</div>
+                    <div class="col-xs-8 nested">Nested 8 col</div>
+                </div>
+            </div>
+
+            <div class="col-xs-6 big">
+                <div class="row">
+                    <div class="col-xs-6 nested">Nested 6 col</div>
+                    <div class="col-xs-6 nested">Nested 6 col</div>                    
+                </div>
+            </div>            
+        </div>
+        
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-11"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-10"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-3"></div>
+            <div class="col-xs-9"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-8"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-5"></div>
+            <div class="col-xs-7"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6"></div>
+            <div class="col-xs-6"></div>
+        </div>
+
+        <br>
+
+        <h3>Offset</h3>
+
+        <div class="row">
+            <div class="col-xs-offset-11 col-xs-1"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-10 col-xs-2"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-9 col-xs-3"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-8 col-xs-4"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-7 col-xs-5"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-6 col-xs-6"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-5 col-xs-7"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-4 col-xs-8"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-3 col-xs-9"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-2 col-xs-10"></div>           
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-11"></div>           
+        </div>
+
+    </div>
 </body>
 </html>
